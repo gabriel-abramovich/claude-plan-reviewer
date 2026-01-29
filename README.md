@@ -15,7 +15,7 @@ A web application for reviewing Claude Code plans with comments, approval workfl
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/claude-plan-reviewer.git ~/.claude/plan-viewer-app
+git clone https://github.com/gabriel-abramovich/claude-plan-reviewer.git ~/.claude/plan-viewer-app
 
 # Run the installer
 bash ~/.claude/plan-viewer-app/install.sh
@@ -23,7 +23,7 @@ bash ~/.claude/plan-viewer-app/install.sh
 
 Or use the one-liner:
 ```bash
-curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/claude-plan-reviewer/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/gabriel-abramovich/claude-plan-reviewer/main/install.sh | bash
 ```
 
 ## Manual Setup

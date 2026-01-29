@@ -22,8 +22,7 @@ if [ -d "$APP_DIR" ]; then
   git pull origin main 2>/dev/null || true
 else
   echo "📥 Cloning repository..."
-  # Replace with your actual repo URL
-  git clone https://github.com/YOUR_USERNAME/claude-plan-reviewer.git "$APP_DIR"
+  git clone https://github.com/gabriel-abramovich/claude-plan-reviewer.git "$APP_DIR"
   cd "$APP_DIR"
 fi
 
